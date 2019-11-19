@@ -7,7 +7,7 @@ const router = new Router();
 
 router.get('/up', (ctx, _next) => {
 	ctx.body = {
-		up: "maybe?",
+		up: true,
 		down: false
 	};
 });
