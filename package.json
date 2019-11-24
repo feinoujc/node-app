@@ -11,7 +11,7 @@
 		"prebuild": "npm run clean",
 		"clean": "rm -rf .nyc_output coverage dist",
 		"build": "babel src --out-dir dist --extensions \"$npm_package_config_babel\" --source-maps inline --copy-files",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"no test specified\""
 	},
 	"author": "",
 	"license": "ISC",

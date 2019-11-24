@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+  test:
+    build:
+      context: .
+      target: builder
+    command:
+      - npm
+      - run
+      - test
+      - --if-present
